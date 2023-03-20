@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+
+    <script src="https://kit.fontawesome.com/bdf11bb7b7.js" crossorigin="anonymous"></script>
+
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js" integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+ 
+    <link rel="stylesheet" href="style.css">
+
+    <title>Document</title>
+</head>
+<body id="checkz">
+
+    <!-- navigation start -->
+<div class="container-fluid d-flex bg-nav justify-content-between align-items-center" id="aaa">
+
+    <div class="logo mt-3 col-lg-6 justify-content-center">
+
+        <a href="index.html" class="brand"><p><i class="fa fa-book-open"></i> BooksTo<b>GO</b></p></a>
+
+    </div>
+
+    <div class="col-lg-12 nav-items" style="width: auto;">
+
+        <div class="col-lg-6  d-none d-lg-inline d-md-inline">
+
+            <ul class="navbar-nav nav-fill d-flex flex-row">
+
+                <li class="nav-item px-2"><a href="index.html" class="item nav-link">Home</a></li>
+                <li class="nav-item px-2"><a href="#" class="item nav-link">Library</a></li>
+                <li class="nav-item px-2"><a href="#" class="item nav-link">Login</a></li>
+
+            </ul>
+
+        </div>
+        <div class="col-lg-6">
+
+            <i class="fas fa-bars d-block d-lg-none d-md-none"></i>
+
+        </div>
+
+    </div>
+
+</div>
+<!-- navigation end -->
+
+<!-- form start -->
+
+<section class="checkout-form-container d-flex justify-content-center align-items-center">
+
+
+    <div class="card bg-nav mx-5 my-5 text-white w-sm-75 w-lg-50 d-flex justify-content-center align-items-center px-3 py-3">
+
+        <form action="#" method="#" >
+
+            
+            <div class="row">
+
+                <h4><i class="fas fa-user"> </i> Personal Information</h4>
+
+            </div>
+
+            <div class="row">
+
+
+                <div class="column">
+
+                    <p>First Name:</p>
+                    <input type="text" id="firstname" class="form-control form-control-sm" required>
+
+                </div>
+
+                <div class="column">
+                    <p>Last Name:</p>
+                    <input type="text" id="lastname" class="form-control form-control-sm" required>
+                </div>
+
+            </div>
+
+            <div class="row">
+
+                <div class="column">
+                    <p>Street Address:</p>
+                    <input type="text" id="street" class="form-control form-control-sm" required>
+                </div>
+
+            </div>
+
+            <div class="row">
+
+                <div class="column">
+                    <p>City:</p>
+                    <input type="text" id="street" class="form-control form-control-sm" required>
+                </div>
+
+                <div class="column">
+                    <p>Province:</p>
+                    <input type="text" id="street" class="form-control form-control-sm" required>
+                </div>
+
+                <div class="column">
+                    <p>Postcode:</p>
+                    <input type="text" id="street" class="form-control form-control-sm" required>
+                </div>
+
+            </div>
+
+            <div class="row">
+
+                <div class="column">
+                    <p>Country:</p>
+                    <input type="text" id="street" class="form-control form-control-sm" required>
+                </div>
+
+            </div>
+
+            <div class="row">
+
+                <div class="column">
+                    <p>Phone:</p>
+                    <input type="text" id="street" class="form-control form-control-sm" required>
+                </div>
+
+            </div>
+
+            <div class="row">
+
+                <div class="column">
+                    <p>Email Address:</p>
+                    <input type="text" id="street" class="form-control form-control-sm" required>
+                </div>
+
+            </div>
+
+            <div class="row mt-5">
+
+                <h4><i class="fas fa-credit-card"> </i> Payment Method</h4>
+
+            </div>
+
+            <div class="row">
+
+                <div class="payment-logos d-flex flex-wrap align-items-center justify-content-center">
+
+                    <div class="pay-items">
+
+                        <img src="../assets/images/gc.png" alt="">
+
+                    </div>
+
+                    <div class="pay-items">
+
+                        <img src="../assets/images/pm.png" alt="">
+
+                    </div>
+
+                    <div class="pay-items">
+
+                        <img src="../assets/images/gp.png" alt="">
+
+                    </div>
+
+                    <div class="pay-items">
+
+                        <img src="../assets/images/cph.png" alt="">
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="row">
+
+                <select name="payment" class="form-control form-control-sm" id="pay" required>
+
+                    <option value="" disabled selected>---SELECT PAYMENT OPTION---</option>
+                    <option value="">GCASH</option>
+                    <option value="">PAYMAYA</option>
+                    <option value="">GRAB PAY</option>
+                    <option value="">COINS.PH</option>
+
+                </select>
+
+            </div>
+
+            <div class="row  mt-5">
+
+                <h4 ><i class="fas fa-ship"> </i> Shipping Method</h4>
+
+            </div>
+
+            <div class="row">
+
+                <div class="payment-logos d-flex flex-wrap align-items-center justify-content-center">
+
+                    <div class="pay-items">
+
+                        <img src="../assets/images/jt.png" alt="">
+
+                    </div>
+
+                    <div class="pay-items">
+
+                        <img src="../assets/images/nv.png" alt="">
+
+                    </div>
+
+                    <div class="pay-items">
+
+                        <img src="../assets/images/llm.png" alt="">
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="row mb-5 mt-0">
+
+                <select name="shipping" class="form-control form-control-sm" id="pay" required>
+
+                    <option value="" disabled selected>---SELECT SHIPPING OPTION---</option>
+                    <option value="">NINJA VAN</option>
+                    <option value="">LALAMOVE</option>
+                    <option value="">J&T</option>
+
+                </select>
+
+            </div>
+
+            <div class="row">
+
+                <button class="btn btn-success">Check out</button>
+
+            </div>
+
+    </form>
+
+    </div>
+
+</section>
+
+<!-- form end -->
+
+<!-- footer start -->
+
+<a class="totp" href="#aaa"><div class="containerflu w-100 d-flex position-relative bg-nav top-0 foo flex-row justify-content-center align-items-center flex-sm-column">
+
+    <ul>
+
+        <li>Back to top</i></li>
+
+    </ul>
+
+</div></a>
+
+<div class="containerflu w-100 d-flex position-relative bg-nav top-0 foo flex-row justify-content-center align-items-center icol">
+
+    <ul class="d-flex">
+
+        <li class="px-2"><a href="#"><i class="fa fa-facebook"></i></a></li>
+        <li class="px-2"><a href="#"><i class="fa fa-github"></i></a></li>
+        <li class="px-2"><a href="#"><i class="fa fa-twitter"></i></a></li>
+
+    </ul>
+
+</div>
+
+<div class="containerflu w-100 d-flex position-relative d-block bg-nav top-0 foo justify-content-center align-items-center d-none">
+
+    <ul class="d-flex ">
+        <li class="px-2"><a href="#">Condition of Use</a></li>
+        <li class="px-2"><a href="#">Privacy</a></li>
+        <li class="px-2"><a href="#">Ads Privacy</a></li>
+    </ul>
+
+</div>
+
+<div class="containerflu w-100 d-flex position-relative bg-nav top-0 foo text-muted justify-content-center align-items-center fs-6">
+
+    <ul>
+    
+        <li>&copy;2023 BooksToGO.com</li>
+
+    </ul>
+
+</div>
+
+<!-- footer end -->
+    
+</body>
+</html>
